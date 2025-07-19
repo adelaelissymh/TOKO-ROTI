@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.logo {
+  font-family: "Dancing Script", cursive;
+  color: orange;
+}
+
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  color: orange;
+}
+.hero {
+  background-image: url(img/home-bg.jpg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  font-family: "Dancing Script", cursive;
+  font-size: 190%;
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.hero-content {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+}
+
+.hero-content img {
+  position: absolute;
+  top: 180px;
+  left: 200px;
+}
+
+button {
+  width: 40%;
+  top: 50px;
+  padding: 10px;
+  background-color: orange;
+  color: black;
+}
+
+.hero-image {
+  width: 100%;
+}
