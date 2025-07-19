@@ -58,14 +58,14 @@
 
 .hero-content img {
   position: absolute;
-  top: 300px;
-  left: 200px;
+  top: 350px;
+  left: 500px;
 }
 
 button {
   width: 40%;
   top: 50px;
-  padding: 10px;
+  padding: 25px;
   background-color: orange;
   color: black;
 }
