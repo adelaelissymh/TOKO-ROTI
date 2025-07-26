@@ -73,3 +73,31 @@ button {
 .hero-image {
   width: 100%;
 }
+
+@media screen and (max-width: 670px) {
+  .hero {
+    font-size: 100%;
+    flex-direction: column;
+    text-align: center;
+  }
+  button {
+    font-size: 75%;
+    margin-top: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .hero-image img {
+    width: 100%;
+    margin-top: 0;
+  }
+  .hero-content img {
+    width: 100px;
+    top: 70px;
+    left: 50px;
+    /* padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: opx; */
+  }
+}
